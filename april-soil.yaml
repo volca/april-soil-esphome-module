@@ -25,6 +25,12 @@ logger:
   level: DEBUG
 
 sensor:
+    - platform: adc
+      pin: 7
+      attenuation: 11db
+      name: "VBatt"
+      update_interval: 5s
+
     - platform: custom
       lambda: |-
         auto ab_sensor = new AprilSoilSensor();
