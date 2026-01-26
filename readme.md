@@ -4,6 +4,15 @@ Custom april soil moisture sensor module for esphome
 
 This module allow to connect april soil moisture sensor with esphome.
 
+### Features ###
+
+* Send data via MQTT and WiFi
+* Deep sleep support. Report data per 30 minutes.
+* Send sensor datas
+  * soil moisture
+  * temperature
+  * battery level
+
 ### How to add the module?
 
 1. Create an empty project with esphome named `april_soil`
